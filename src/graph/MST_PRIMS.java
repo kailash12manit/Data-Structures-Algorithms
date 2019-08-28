@@ -1,9 +1,18 @@
-package graph;
+package Graph;
+import java.util.*;
+/*
+4
+6
+1 2 5
+1 3 3
+4 1 6
+2 4 7
+3 2 4
+3 4 5
 
-import java.util.Scanner;
+*/
 
 public class MST_PRIMS {
-
 	static int N;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,14 +1,13 @@
-package graph;
+package Graph;
 
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Count_paths_src_dst {
-
 	// No. of vertices 
 	private int V;  
-
+ 
 	private LinkedList<Integer> adj[]; 
 
 	Count_paths_src_dst(int v)  { 
@@ -62,4 +61,3 @@ public class Count_paths_src_dst {
 		System.out.println(g.countPaths(s, d)); 
 	} 
 }
-
